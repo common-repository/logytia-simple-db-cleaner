@@ -1,0 +1,77 @@
+#logytia_clean_form {
+  padding: 40px !important;
+  border: solid 1px rgba(219, 219, 219, 0.64);
+  border-radius: 10px;
+  background: #f3f3f3;
+}
+
+#logytia_clean_content {
+  padding: 10px;
+  border: solid 1px #c9c9c9;
+  background: white;
+  margin: 5px 0;
+  cursor: default;
+}
+#logytia_clean_content:hover {
+  background: rgba(203, 218, 255, 0.83);
+}
+#logytia_clean_content label {
+  margin-bottom: 0.4rem;
+  font-size: 15px;
+  font-weight: 700;
+  color: #146dc7;
+}
+#logytia_clean_form p {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: black;
+  font-weight: 500;
+}
+
+
+#logytia_db_information {
+    display: flex;
+  flex-direction:row;
+  align-items: center;
+}
+
+#logytia_db_information p {
+    margin:0 !important;
+}
+
+#logytia_db_information input[type=checkbox], input[type=radio] {
+    margin-left: 10px;
+    outline: none;
+}
+
+#checkbuttonform {
+    position: absolute;
+    left: calc(12% + 32px);
+    bottom: calc(3% + 13px);
+}
+
+#buttonclasslogytia {
+    padding: 10px;
+    color: #1243c8;
+    font-weight: 700;
+    background-color: white;
+    cursor:default;
+    outline:none;
+}
+
+#buttonclasslogytia:hover {
+    background-color: #3270ce!important;
+    color:white;
+}
+
+#logytialogo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom:10px;
+}
+
+#logytialogo img {
+    width: 35%;
+}
